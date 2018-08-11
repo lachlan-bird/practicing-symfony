@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article/homepage.html.twig" afterPath="$PROJECT_DIR$/templates/article/homepage.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,10 +55,12 @@
       <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="362">
+              <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
               <folding>
                 <element signature="e#35#58#0#PHP" expanded="true" />
+                <element signature="e#716#744#0#PHP" expanded="true" />
+                <element signature="e#974#998#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -80,7 +81,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-              <folding />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +93,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-              <folding />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -349,7 +354,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="articlerepo&#9;null&#9;null&#10;articlecontr&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;homepage&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/homepage.html.twig&#10;appex&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Twig/AppExtension.php&#10;markdownhelp&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Service/MarkdownHelper.php&#10;articlecontroller&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlecontrol&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articleadmin&#9;null&#9;null&#10;ARTICLE&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;article&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/.env&#10;show.h&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;base&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/base.html.twig&#10;twigyam&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/config/packages/twig.yaml" />
+    <property name="SearchEverywhereHistoryKey" value="articlecontr&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlerepo&#9;null&#9;null&#10;homepage&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/homepage.html.twig&#10;appex&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Twig/AppExtension.php&#10;markdownhelp&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Service/MarkdownHelper.php&#10;articlecontroller&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlecontrol&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articleadmin&#9;null&#9;null&#10;ARTICLE&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;article&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/.env&#10;show.h&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;base&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/base.html.twig&#10;twigyam&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/config/packages/twig.yaml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -447,12 +452,12 @@
       <updated>1533902601472</updated>
       <workItem from="1533902602687" duration="271000" />
       <workItem from="1533902963105" duration="331000" />
-      <workItem from="1533903359686" duration="15670000" />
+      <workItem from="1533903359686" duration="16004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16272000" />
+    <option name="totallyTimeSpent" value="16606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -758,7 +763,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-          <folding />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -786,24 +793,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="362">
+          <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
           <folding>
             <element signature="e#35#58#0#PHP" expanded="true" />
+            <element signature="e#716#744#0#PHP" expanded="true" />
+            <element signature="e#974#998#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

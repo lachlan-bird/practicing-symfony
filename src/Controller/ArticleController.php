@@ -37,20 +37,8 @@ class ArticleController extends AbstractController
     /**
      * @Route("/news/{slug}", name="article_show")
      */
-    public function show($slug, SlackClient $slackClient, ArticleRepository $repository)
+    public function show(Article $article, SlackClient $slackClient)
     {
-        if($slug == 'slack') {
-            $slackClient->sendMessage('Lachlan', 'Hi!');
-        }
-
-        $article = $repository->findOneBy([
-            'slug' => $slug
-        ]);
-
-        if(!$article) {
-            throw $this->createNotFoundException("No article found for slug {$slug}");
-        }
-
         return $this->render('article/show.html.twig', [
             'article' => $article,
             'comments' => [
