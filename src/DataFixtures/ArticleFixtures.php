@@ -7,11 +7,22 @@ use Doctrine\Common\Persistence\ObjectManager;
 
 class ArticleFixtures extends BaseFixture
 {
+    private static $articleTitles = [
+        'Why Asteroids Taste Like Bacon',
+        'Life on Planet Mercury: Tan, Relaxing and Fabulous',
+        'Light Speed Travel: Fountain of Youth or Fallacy',
+    ];
+    private static $articleImages = [
+        'asteroid.jpeg',
+        'mercury.jpeg',
+        'lightspeed.png',
+    ];
+
     protected function loadData(ObjectManager $manager)
     {
         $this->createMany(Article::class, 10, function(Article $article, $count) {
-            $article->setTitle('Bacon ipsum is the best.')
-                ->setSlug('bacon-ipsum-is-the-best-'.$count)
+            $article->setTitle($this->faker->randomElement(self::$articleTitles))
+                ->setSlug($this->faker->slug)
                 ->setContent(<<<EOF
 Spicy **jalapeno bacon** ipsum dolor amet veniam shank in dolore. Ham hock nisi landjaeger cow,
 lorem proident [beef ribs](https://baconipsum.com) aute enim veniam ut cillum pork chuck picanha. Dolore reprehenderit
@@ -31,12 +42,12 @@ cow est ribeye adipisicing. Pig hamburger pork belly enim. Do porchetta minim ca
 fugiat.
 EOF
                 )
-                ->setAuthor('Mike Ferengi')
-                ->setHeartCount(rand(5, 100))
-                ->setImageFilename('asteroid.jpeg');
+                ->setAuthor($this->faker->name)
+                ->setHeartCount($this->faker->numberBetween(5, 100))
+                ->setImageFilename($this->faker->randomElement(self::$articleImages));
 
-            if(rand(1, 10) > 2) {
-                $article->setPublishedAt(new \DateTime(sprintf('-%d days', rand(1, 100))));
+            if($this->faker->boolean(70)) {
+                $article->setPublishedAt($this->faker->dateTimeBetween('-100 days', '-1 days'));
             }
         });
 
