@@ -6,8 +6,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Article.php" afterPath="$PROJECT_DIR$/src/Entity/Article.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,16 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Version20180811081718.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Migrations/Version20180811081718.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Version20180811110618.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Migrations/Version20180811110618.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,9 +53,11 @@
       <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="540">
+              <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+              <folding>
+                <element signature="e#30#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,11 +65,21 @@
       <file leaf-file-name="ArticleFixtures.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="23" column="81" lean-forward="false" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
               <folding>
                 <element signature="e#36#59#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stof_doctrine_extensions.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,8 +103,6 @@
               <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="e#35#58#0#PHP" expanded="true" />
-                <element signature="e#716#744#0#PHP" expanded="true" />
-                <element signature="e#974#998#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,9 +123,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,9 +133,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="103" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,9 +179,10 @@
         <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
         <option value="$PROJECT_DIR$/templates/article/homepage.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" />
+        <option value="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
       </list>
     </option>
@@ -288,6 +286,9 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -381,7 +382,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="articleadmin&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleAdminController.php&#10;articlefix&#9;null&#9;null&#10;article&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;arti&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;homepage&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/homepage.html.twig&#10;show&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;article/show&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;entity/ar&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;articlcontr&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlecontroler&#9;null&#9;null&#10;version&#9;null&#9;null&#10;articlecontr&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlerepo&#9;null&#9;null&#10;appex&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Twig/AppExtension.php&#10;markdownhelp&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Service/MarkdownHelper.php&#10;articlecontroller&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlecontrol&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;ARTICLE&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;.env&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/.env&#10;show.h&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;base&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/base.html.twig&#10;twigyam&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/config/packages/twig.yaml" />
+    <property name="SearchEverywhereHistoryKey" value="stofyaml&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/config/packages/stof_doctrine_extensions.yaml&#10;articleadmin&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleAdminController.php&#10;articlefix&#9;null&#9;null&#10;article&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;arti&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;homepage&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/homepage.html.twig&#10;show&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;article/show&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;entity/ar&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;articlcontr&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlecontroler&#9;null&#9;null&#10;version&#9;null&#9;null&#10;articlecontr&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlerepo&#9;null&#9;null&#10;appex&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Twig/AppExtension.php&#10;markdownhelp&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Service/MarkdownHelper.php&#10;articlecontroller&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;articlecontrol&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Controller/ArticleController.php&#10;ARTICLE&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/src/Entity/Article.php&#10;.env&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/.env&#10;show.h&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/article/show.html.twig&#10;base&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/templates/base.html.twig&#10;twigyam&#9;FILE&#9;file:///Users/lachlan/Projects/the_spacebar/config/packages/twig.yaml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -479,16 +480,15 @@
       <updated>1533902601472</updated>
       <workItem from="1533902602687" duration="271000" />
       <workItem from="1533902963105" duration="331000" />
-      <workItem from="1533903359686" duration="18890000" />
+      <workItem from="1533903359686" duration="19296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19492000" />
+    <option name="totallyTimeSpent" value="19898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -497,7 +497,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26020408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26020408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -803,9 +803,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="103" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -813,9 +811,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -825,8 +821,6 @@
           <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
           <folding>
             <element signature="e#35#58#0#PHP" expanded="true" />
-            <element signature="e#716#744#0#PHP" expanded="true" />
-            <element signature="e#974#998#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -835,14 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -867,10 +853,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="23" column="81" lean-forward="false" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
           </folding>
