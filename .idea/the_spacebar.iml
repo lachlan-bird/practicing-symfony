@@ -13,6 +13,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/reflection" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/easycorp/easy-log-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/knplabs/knp-markdown-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/michelf/php-markdown" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
@@ -79,6 +81,8 @@
           <root url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/reflection" />
           <root url="file://$MODULE_DIR$/vendor/easycorp/easy-log-handler" />
+          <root url="file://$MODULE_DIR$/vendor/knplabs/knp-markdown-bundle" />
+          <root url="file://$MODULE_DIR$/vendor/michelf/php-markdown" />
           <root url="file://$MODULE_DIR$/vendor/monolog/monolog" />
           <root url="file://$MODULE_DIR$/vendor/psr/cache" />
           <root url="file://$MODULE_DIR$/vendor/psr/container" />
@@ -129,6 +133,8 @@
           <root url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/reflection" />
           <root url="file://$MODULE_DIR$/vendor/easycorp/easy-log-handler" />
+          <root url="file://$MODULE_DIR$/vendor/knplabs/knp-markdown-bundle" />
+          <root url="file://$MODULE_DIR$/vendor/michelf/php-markdown" />
           <root url="file://$MODULE_DIR$/vendor/monolog/monolog" />
           <root url="file://$MODULE_DIR$/vendor/psr/cache" />
           <root url="file://$MODULE_DIR$/vendor/psr/container" />
