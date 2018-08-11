@@ -4,7 +4,7 @@ namespace App\Controller;
 
 
 use App\Service\MarkdownHelper;
-use Nexy\Slack\Client;
+use App\Service\SlackClient;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
@@ -14,11 +14,10 @@ class ArticleController extends AbstractController
     private $isDebug;
     private $slack;
 
-    public function __construct(bool $isDebug, Client $slack)
+    public function __construct(bool $isDebug)
     {
 
         $this->isDebug = $isDebug;
-        $this->slack = $slack;
     }
 
     /**
@@ -32,16 +31,12 @@ class ArticleController extends AbstractController
     /**
      * @Route("/news/{slug}", name="article_show")
      */
-    public function show($slug, MarkdownHelper $markdownHelper)
+    public function show($slug, MarkdownHelper $markdownHelper, SlackClient $slackClient)
     {
         if($slug == 'slack') {
-            $message = $this->slack->createMessage()
-                ->from('John Doe')
-                ->withIcon(':ghost:')
-                ->setText('This is an amazing message!');
-
-            $this->slack->sendMessage($message);
+            $slackClient->sendMessage('Lachlan', 'Hi!');
         }
+
         $articleContent = <<<EOF
 Spicy **jalapeno bacon** ipsum dolor amet veniam shank in dolore. Ham hock nisi landjaeger cow,
 lorem proident [beef ribs](https://baconipsum.com) aute enim veniam ut cillum pork chuck picanha. Dolore reprehenderit
