@@ -28,10 +28,6 @@ class MarkdownHelper
         if(stripos($source, 'bacon') !== false)
             $this->logger->info('Bacon found!');
 
-        if($this->isDebug) {
-            return $this->markdown->transform($source);
-        }
-
         $item = $this->cache->getItem('markdown_' . md5($source));
 
         if (!$item->isHit()) {
