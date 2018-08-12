@@ -5,6 +5,7 @@ namespace App\Controller;
 
 use App\Entity\Article;
 use App\Repository\ArticleRepository;
+use App\Repository\CommentRepository;
 use App\Service\SlackClient;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
@@ -40,12 +41,7 @@ class ArticleController extends AbstractController
     public function show(Article $article, SlackClient $slackClient)
     {
         return $this->render('article/show.html.twig', [
-            'article' => $article,
-            'comments' => [
-                'I hate this site!',
-                'This is dumb',
-                'Working on learning Symfony!'
-            ]
+            'article' => $article
         ]);
     }
 
